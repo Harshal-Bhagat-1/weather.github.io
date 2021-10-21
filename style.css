@@ -157,6 +157,7 @@ button:hover {
   .brand-title{
     font-size: 1.8rem;
     margin-top: 10px;
+    margin-left:10px;
     margin-bottom: 1px;
   }
   .input{
