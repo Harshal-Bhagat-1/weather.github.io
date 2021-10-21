@@ -43,9 +43,9 @@ let weather = {
       "http://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".desc").innerText = description;
     document.querySelector(".tempmin").innerText =
-      "Max temp: " + temp_min + "°C";
+      "Max temp: " +  temp_max+ "°C";
     document.querySelector(".tempmax").innerText =
-      "Min temp: " + temp_max + "°C";
+      "Min temp: " + temp_min  + "°C";
     document.querySelector(".wind").innerText =
       "Wind Speed: " + speed + " Km/h";
     document.querySelector(".wcard").classList.remove("loading");
